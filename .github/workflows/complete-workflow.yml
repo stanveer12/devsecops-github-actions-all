@@ -4,7 +4,7 @@ on: push
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Run unit tests and SAST scan on the source code 
+    name: Run unit tests and SAST scan onthe source code 
     steps:
     - uses: actions/checkout@v4
     - name: Set up JDK21
